@@ -1,0 +1,41 @@
+{
+  "universe": {
+    "min_crossings": 3,
+    "max_crossings": 15,
+    "expected_n": 313230,
+    "identity_id": "00_1",
+    "expected_s_qc_corrections": 1
+  },
+  "primary": {
+    "method": "PCA",
+    "score": "sse",
+    "evr": 0.99,
+    "tail_mass": 0.01,
+    "expected_tail_size": 3133,
+    "expected_consensus_size": 292,
+    "k": {
+      "Alexander": 4,
+      "Jones": 10,
+      "HOMFLY-PT": 32,
+      "Theta": 10,
+      "Khovanov": 77
+    }
+  },
+  "sensitivity_k_999": {
+    "Alexander": 5,
+    "Jones": 13,
+    "HOMFLY-PT": 45,
+    "Theta": 16,
+    "Khovanov": 115
+  },
+  "fixed_compression_k": {
+    "Alexander": 5,
+    "Jones": 10,
+    "HOMFLY-PT": 20,
+    "Theta": 10,
+    "Khovanov": 50
+  },
+  "s_column": "s_invariant_qc",
+  "seed": 42,
+  "null_reps": 1000
+}

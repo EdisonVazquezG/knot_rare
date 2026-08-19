@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: consensus-hardness
+Version: 0.2.0
+Summary: Reproducible consensus-hardness analyses for knot invariants
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.24
+Requires-Dist: pandas>=2.0
+Requires-Dist: scikit-learn>=1.3
+Requires-Dist: scipy>=1.10
+Requires-Dist: statsmodels>=0.14
+Provides-Extra: ae
+Requires-Dist: tensorflow>=2.15; extra == "ae"
+Provides-Extra: plots
+Requires-Dist: matplotlib>=3.7; extra == "plots"
+Requires-Dist: seaborn>=0.13; extra == "plots"
+Provides-Extra: dev
+Requires-Dist: pytest>=8; extra == "dev"
+Requires-Dist: ruff>=0.5; extra == "dev"
